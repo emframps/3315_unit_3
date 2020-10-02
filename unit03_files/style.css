@@ -1,0 +1,111 @@
+/*here's our first go at css!*/
+
+
+body {
+  font-family: "poppins", sans-serif; 
+}
+p {
+   font-size:12px
+}
+
+
+/*LISTS*/
+ol, ul {
+  color: lightpink;
+}
+ul li {
+    color: lightpink;
+}
+
+
+/*LINKS*/
+a {
+    color:lightpink;
+    text-decoration: none;
+}
+a:hover {
+    color:lightgray;
+    text-decoration: underline;
+}
+
+
+/*IMAGE AND TEXT HEADER*/
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 62pt;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: -7px;
+}
+
+
+/*TABLE*/
+table {
+    border: 3px solid darkgray;
+    border-collapse: collapse;
+}
+th {
+    color: dimgray;
+    border: 3px solid darkgray;
+    border-collapse: collapse;
+}
+td {
+    color: lightpink;
+    border: 3px solid darkgray;
+    border-collapse: collapse;
+}
+
+
+/*HEADERS*/
+h1, h2, h3, h4, h5, h6 {
+    color:lightpink;
+}
+h1 {
+    font-size: 48pt;
+}
+h2 {
+    font-size: 30pt;
+}
+h3 {
+    font-size: 24pt;
+}
+h4 {
+    font-size: 24pt;
+}
+h5 {
+    font-size: 24pt;
+}
+h6 {
+    font-size: 24pt;
+}
+
+
+/* CLASSES */
+.center {
+    text-align: center;
+}
+.paragraph {
+    color: dimgray;
+}
+.highlight {
+    background-color: lightpink
+}
+#headerbackground {
+  background-image: url(sunflowerpic.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
