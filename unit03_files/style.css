@@ -30,9 +30,10 @@ p {
     column-width: 50px;
 }
 .row {
-  content: "";
-  display: flex;
-  clear: both;
+    content: "";
+    display: flex;
+    clear: both;
+    margin-top: 15px;
 }
 
 /*LISTS*/
@@ -126,4 +127,22 @@ h6 {
 }
 .highlight {
     background-color: darkgoldenrod;
+}
+
+
+
+@media (max-width: 991px) {
+    h2 {
+        font-size: 16pt;
+        color: goldenrod;
+        text-shadow: 2px 2px maroon;
+    }
+    ol, ul {
+        color: maroon;
+        font-size: 12pt;
+    }
+    ul li {
+        color: maroon;
+        font-size: 12pt;
+    }
 }
