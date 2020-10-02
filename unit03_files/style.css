@@ -1,5 +1,5 @@
 /*here's our first go at css!*/
-/*new properties for this assignment include columns -which was a pain-, text shadow, and background color! hope you enjoy :)*/
+/*new properties for this assignment include columns -which was a pain-, text shadow, @media sizing, and background color! hope you enjoy :)*/
 
 
 body {
@@ -7,7 +7,11 @@ body {
     background-color: oldlace;
 }
 p {
-   font-size:16px
+    font-size:16px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /*COLUMNS - NEW PROPERTY*/
