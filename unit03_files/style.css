@@ -1,30 +1,56 @@
 /*here's our first go at css!*/
+/*new properties for this assignment include columns -which was a pain-, text shadow, and background color! hope you enjoy :)*/
 
 
 body {
-  font-family: "poppins", sans-serif; 
+    font-family: "poppins", sans-serif; 
+    background-color: oldlace;
 }
 p {
-   font-size:12px
+   font-size:16px
 }
 
+/*COLUMNS - NEW PROPERTY*/
+* {
+  box-sizing: border-box;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    column-count: 2;
+    column-width: 50px;
+}
+.column2 {
+    float: right;
+    flex: 50%;
+    width: 50%;
+    padding: 10px;
+    column-count: 2;
+    column-width: 50px;
+}
+.row {
+  content: "";
+  display: flex;
+  clear: both;
+}
 
 /*LISTS*/
 ol, ul {
-  color: lightpink;
+    color: maroon;
 }
 ul li {
-    color: lightpink;
+    color: maroon;
 }
 
 
 /*LINKS*/
 a {
-    color:lightpink;
+    color:maroon;
     text-decoration: none;
 }
 a:hover {
-    color:lightgray;
+    color:goldenrod;
     text-decoration: underline;
 }
 
@@ -38,35 +64,24 @@ a:hover {
     font-size: 62pt;
 }
 
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: -20px;
-  left: -10px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 0px;
-  right: -7px;
-}
-
 
 /*TABLE*/
 table {
-    border: 3px solid darkgray;
+    border: 3px solid maroon;
     border-collapse: collapse;
+    padding: 10px;
 }
 th {
-    color: dimgray;
-    border: 3px solid darkgray;
+    color: goldenrod;
+    border: 3px solid maroon;
     border-collapse: collapse;
+    padding: 10px;
 }
 td {
-    color: lightpink;
-    border: 3px solid darkgray;
+    color: goldenrod;
+    border: 3px solid maroon;
     border-collapse: collapse;
+    padding: 10px;
 }
 
 
@@ -76,15 +91,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 48pt;
+    color: darkgoldenrod;
 }
 h2 {
     font-size: 30pt;
+    color: goldenrod;
+    text-shadow: 2px 2px maroon;
 }
 h3 {
     font-size: 24pt;
+    color: gold;
+    text-shadow: 2px 2px indianred;
 }
 h4 {
     font-size: 24pt;
+    color: palegoldenrod;
 }
 h5 {
     font-size: 24pt;
@@ -97,15 +118,12 @@ h6 {
 /* CLASSES */
 .center {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .paragraph {
-    color: dimgray;
+    color: black;
 }
 .highlight {
-    background-color: lightpink
-}
-#headerbackground {
-  background-image: url(sunflowerpic.jpg);
-  background-position: center top;
-  background-repeat: no-repeat;
+    background-color: darkgoldenrod;
 }
