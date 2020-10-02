@@ -135,6 +135,12 @@ h6 {
 .highlight {
     background-color: darkgoldenrod;
 }
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 
 
